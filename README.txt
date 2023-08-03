@@ -1,5 +1,9 @@
 LMS - Splitted Levenberg-Marquardt Method for Large-Scale Sparse Problems
 
+If you use this code in your work, please cite
+Krejić, N., Malaspina, G., Swaenen, L. A split Levenberg-Marquardt method for large-scale sparse problems. Comput Optim Appl 85, 147–179 (2023). 
+https://doi.org/10.1007/s10589-023-00460-9
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 LMS is a modification of Levenberg-Marquardt method for the solution of large scale least squares adjustment problems, which exploits the sparsity structure of the problems to partition the variaables into almost-independent subsets and approximate the linear system that arises at each iteration of LM method with a set of independent systems. To improve the quality of the approximation, the method employes a correction strategy that involves a modification of the right hand side of the resulting systems.
